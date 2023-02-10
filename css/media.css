@@ -90,6 +90,9 @@
   #header .header--logo__menu {
     display: none;
   }
+  #blog .blog p {
+    margin: 0 64px;
+  }
   #hero {
     background-size: 901px;
     min-height: 40vh;
@@ -268,6 +271,112 @@
   }
   #header .header--logo {
     display: none;
+  }
+}
+@media (max-width: 412px) {
+  #blog .blog--slide img:nth-child(2) {
+    display: none;
+  }
+  #blog .blog--slide img {
+    width: 411.2px;
+  }
+  #logo {
+    display: none;
+  }
+  #category .category--text h1 {
+    font-size: 36px;
+  }
+  #hero {
+    min-height: 55vh;
+  }
+  #hero .hero--first p {
+    font-size: 16px;
+  }
+  #new .new--one h1 {
+    font-size: 35px;
+  }
+  #blog .blog--text {
+    display: flex;
+    flex-direction: column;
+  }
+  #category .category--picture img {
+    margin: 0 29px 28px;
+  }
+  #new .new--circle__box {
+    margin: 0 52px 53px;
+  }
+  #footer .footer h1 {
+    font-size: 20px;
+  }
+  #register .register h1 {
+    font-size: 29px;
+  }
+  #register .register p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  #footer .footer--one {
+    display: none;
+  }
+  #footer .footer--three {
+    display: none;
+  }
+  #blog .blog--text h1 {
+    font-size: 13px;
+  }
+  #blog .blog--text button {
+    padding: 12px 20px;
+  }
+  #blog .blog--text button {
+    margin-bottom: 19px;
+  }
+  #blog .blog p {
+    font-size: 12px;
+    font-weight: 700;
+  }
+  #register {
+    background-size: cover;
+    min-height: 84vh;
+    margin-bottom: 80px;
+  }
+  #new .new--one p {
+    font-size: 20px;
+  }
+  #footer .footer {
+    margin: 0 8px;
+  }
+  #category .category--text p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 390px) {
+  #new .new--circle__box {
+    width: 240px;
+    height: 339px;
+  }
+  #new .new--one p {
+    font-size: 19px;
+  }
+  #register .register p {
+    font-size: 13px;
+  }
+  #blog .blog--slide img {
+    width: 388.2px;
+  }
+  #category .category--picture img {
+    margin: 0 25px 23px;
+  }
+  #blog .blog p {
+    font-size: 10px;
+  }
+  #blog .blog--text h1 {
+    font-size: 12px;
+  }
+  #new .new--circle__box img {
+    width: 240px;
+  }
+  #category .category--text p {
+    font-size: 18px;
   }
 }
 
